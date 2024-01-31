@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Reset some default styles */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+/* Set default font family and size */
+body {
+    line-height: 1;
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+textarea,
+input,
+textarea::placeholder,
+input::placeholder {
+    font-family: 'Sen', sans-serif;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+/* Remove list styles */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove hyperlink styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove text formatting inside some elements */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* Remove borders and spacing for tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove default button styles */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+button,
+li,
+a {
+    cursor: pointer;
+}
+
+strong {
+    font-weight: bold;
+}
+
+:root {
+    --primary-color: #222222;
+    --primary-05-color: #1313137a;
+    --secondary-color: #eb5757;
+    --gray-color: #80808043;
+}
+
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 1rem;
+}
